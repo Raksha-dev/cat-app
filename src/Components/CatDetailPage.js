@@ -21,7 +21,7 @@ const CatDetailPage = ({  }) => {
   const breed = data.find((b) => b.id === breedId);
 
   if (!breed) {
-    return <div>Loading...</div>;
+    return <div>Loading....</div>;
   }
 
   return (
