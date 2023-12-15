@@ -1,0 +1,88 @@
+.container {
+  margin-top: 50px;
+  display: flex;
+  grid-gap: 20px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.images {
+  width: 200px;
+  height: 200px;
+}
+
+.detail-page {
+  display: flex;
+  grid-gap: 20px;
+}
+
+.page {
+  margin: 0 auto;
+  max-width: 1480px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.page img {
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.page a {
+  border: 1px solid;
+  margin-top: 10px;
+  padding: 2px;
+  color: inherit;
+}
+.table {
+  display: flex;
+  width: 70%;
+}
+
+.column {
+  margin-bottom: 1em;
+  width: 100%;
+}
+.name {
+  border: 1px black solid;
+  height: 3em;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: auto;
+  width: 100%;
+  background-color: lightblue;
+  font-weight: bold;
+}
+.row {
+  border: 1px black solid;
+  height: 3em;
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.row a {
+  color: inherit;
+}
+.row:nth-child(odd) {
+  background-color: lightblue;
+}
+.card-detail {
+  display: flex;
+  background: lightblue;
+  padding: 40px;
+  width: 500px;
+  align-items: center;
+  font-weight: 500;
+}
+.content > div {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 425px) {
+  .card-detail {
+    width: 320px;
+  }
+}
